@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950be718a2b1fe2409d37f8cf679c3fa, type: 3}
+  m_Name: BaseArm
+  m_EditorClassIdentifier: 
+  nameEntries:
+  - name: Fancy Arm
+    weight: 1000
+  - name: Creepy Arm
+    weight: 1000
+  - name: Spooky Arm
+    weight: 1000
+  - name: Bouncy Arm
+    weight: 1000
+  - name: Distinguished Arm
+    weight: 1000
+  - name: Big Ol' Arm
+    weight: 1000
+  - name: Small Arm
+    weight: 1000
+  - name: Glowing Arm
+    weight: 1000
+  - name: Smelly Arm
+    weight: 1000
+  - name: Muscled Arm
+    weight: 1000
+  - name: Inept Arm
+    weight: 1000
+  - name: Bat Arm
+    weight: 1000
+  - name: Hinged Slapper
+    weight: 1000

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb40c0092a6e4d49863fef325188f3c, type: 3}
+  m_Name: henlo 1
+  m_EditorClassIdentifier: 
+  id: 2
+  ilevelMin: 4
+  ilevelMax: 40
+  tier: 2
+  weight: 1000
+  validItemTypes: 010000000200000003000000
+  minRoll1: 100
+  maxRoll1: 1000
+  minRoll2: 100
+  maxRoll2: 1000
+  affix: {fileID: 8938383509983703411, guid: 62504a6d488abbd4686be8318a0b94b2, type: 3}
+  AffixTags: 02000000
+  ExclusiveWith: []

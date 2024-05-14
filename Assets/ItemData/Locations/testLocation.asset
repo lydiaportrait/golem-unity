@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffdce386029eddf4e9467f647b2d32b8, type: 3}
+  m_Name: testLocation
+  m_EditorClassIdentifier: 
+  locationHasProgressEncounters: 1
+  MaxProgress: 5
+  bossEncounters:
+  - encounter: {fileID: 11400000, guid: 5cbc4c75a47d9a644b01f53c540f07c6, type: 2}
+    weight: 1
+  encounters:
+  - encounter: {fileID: 11400000, guid: 301a77b7a88938045a9e48c9f70116bf, type: 2}
+    weight: 60

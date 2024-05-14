@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8b745c0bd272e45a44fa42e2ca4524, type: 3}
+  m_Name: testEncounter 1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  EncounterTitle: Test Encounter
+  EncounterStages:
+  - StageTitle: obtain thing
+    StageImage: {fileID: 21300000, guid: a785356924c87794eb01fa2f4784c230, type: 3}
+    StageHP: 5
+    BaseActionLength: 0.5
+    statTests:
+    - statToTest: 2
+      difficultyThreshold: 6
+    SuccessResult:
+      minRolls: 1
+      maxRolls: 5
+      baseItemLevel: 0
+      lootTable: {fileID: 11400000, guid: c4cc0900d819e5c40aff7a470f83da02, type: 2}
+      LocationProgress: 0
+      damageNumber: 0
+      damageType: 0
+      RevealsAdditionalExits: 0
+      exitIndex: 0
+    FailureResult:
+      minRolls: 0
+      maxRolls: 0
+      baseItemLevel: 0
+      lootTable: {fileID: 0}
+      LocationProgress: 0
+      damageNumber: 5
+      damageType: 1
+      RevealsAdditionalExits: 0
+      exitIndex: 0
+  - StageTitle: Now get me a kebab
+    StageImage: {fileID: 0}
+    StageHP: 4
+    BaseActionLength: 0.5
+    statTests:
+    - statToTest: 4
+      difficultyThreshold: 4
+    SuccessResult:
+      minRolls: 0
+      maxRolls: 0
+      baseItemLevel: 0
+      lootTable: {fileID: 0}
+      LocationProgress: 0
+      damageNumber: 0
+      damageType: 0
+      RevealsAdditionalExits: 0
+      exitIndex: 0
+    FailureResult:
+      minRolls: 0
+      maxRolls: 0
+      baseItemLevel: 0
+      lootTable: {fileID: 0}
+      LocationProgress: 0
+      damageNumber: 3
+      damageType: 2
+      RevealsAdditionalExits: 0
+      exitIndex: 0
+  - StageTitle: now eat kebab
+    StageImage: {fileID: 0}
+    StageHP: 10
+    BaseActionLength: 0.5
+    statTests:
+    - statToTest: 6
+      difficultyThreshold: 4
+    - statToTest: 2
+      difficultyThreshold: 8
+    SuccessResult:
+      minRolls: 0
+      maxRolls: 0
+      baseItemLevel: 0
+      lootTable: {fileID: 0}
+      LocationProgress: 0
+      damageNumber: 0
+      damageType: 0
+      RevealsAdditionalExits: 0
+      exitIndex: 0
+    FailureResult:
+      minRolls: 0
+      maxRolls: 0
+      baseItemLevel: 0
+      lootTable: {fileID: 0}
+      LocationProgress: 0
+      damageNumber: 2
+      damageType: 0
+      RevealsAdditionalExits: 0
+      exitIndex: 0

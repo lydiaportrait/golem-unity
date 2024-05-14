@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8b745c0bd272e45a44fa42e2ca4524, type: 3}
+  m_Name: testEncounter
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  EncounterTitle: big boigler
+  EncounterStages:
+  - StageTitle: oogle
+    StageImage: {fileID: 21300000, guid: 32ecf1e41e770834fa97d9dce1efb572, type: 3}
+    StageHP: 5
+    BaseActionLength: 0.5
+    statTests:
+    - statToTest: 2
+      difficultyThreshold: 6
+    SuccessResult:
+      minRolls: 1
+      maxRolls: 5
+      baseItemLevel: 20
+      lootTable: {fileID: 11400000, guid: c4cc0900d819e5c40aff7a470f83da02, type: 2}
+      LocationProgress: 0
+      damageNumber: 0
+      damageType: 0
+    FailureResult:
+      minRolls: 0
+      maxRolls: 0
+      baseItemLevel: 0
+      lootTable: {fileID: 0}
+      LocationProgress: 0
+      damageNumber: 5
+      damageType: 0
+  - StageTitle: 
+    StageImage: {fileID: 21300000, guid: ac1494587d4a7194089616b3ebeb7427, type: 3}
+    StageHP: 4
+    BaseActionLength: 0.5
+    statTests:
+    - statToTest: 4
+      difficultyThreshold: 4
+    SuccessResult:
+      minRolls: 1
+      maxRolls: 5
+      baseItemLevel: 60
+      lootTable: {fileID: 11400000, guid: c4cc0900d819e5c40aff7a470f83da02, type: 2}
+      LocationProgress: 0
+      damageNumber: 0
+      damageType: 0
+    FailureResult:
+      minRolls: 0
+      maxRolls: 0
+      baseItemLevel: 0
+      lootTable: {fileID: 0}
+      LocationProgress: 0
+      damageNumber: 3
+      damageType: 2
+  - StageTitle: hello
+    StageImage: {fileID: 21300000, guid: 98b43d54fc89ad146ae0243a352c70d9, type: 3}
+    StageHP: 10
+    BaseActionLength: 0.5
+    statTests:
+    - statToTest: 6
+      difficultyThreshold: 4
+    - statToTest: 2
+      difficultyThreshold: 8
+    SuccessResult:
+      minRolls: 1
+      maxRolls: 5
+      baseItemLevel: 2
+      lootTable: {fileID: 11400000, guid: c4cc0900d819e5c40aff7a470f83da02, type: 2}
+      LocationProgress: 5
+      damageNumber: 0
+      damageType: 0
+    FailureResult:
+      minRolls: 0
+      maxRolls: 0
+      baseItemLevel: 0
+      lootTable: {fileID: 0}
+      LocationProgress: 0
+      damageNumber: 2
+      damageType: 0
