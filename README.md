@@ -1,4 +1,4 @@
-A prototype for a data rich item based game in unity.
+A prototype for a data rich item based game in unity, using the entity-component design pattern
 
 a full item system, including handling serialisation, dynamic weighted random selections from loot tables, crafting items into different items, using serialized objects to allow designers to not touch code.
 
